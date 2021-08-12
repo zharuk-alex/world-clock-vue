@@ -1,3 +1,5 @@
+deploy_ghpages.sh
+
 .DS_Store
 node_modules
 /dist

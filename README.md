@@ -1,4 +1,6 @@
-# world-click
+# world-clock-vue
+
+[label](http://https://zzharuk.github.io/world-clock-vue/)
 
 ## Project setup
 
