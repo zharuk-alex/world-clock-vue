@@ -1,5 +1,5 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-  ? '/world-clock-vue/'
+  ? '/projects/world-clock-vue/'
   : '/'
 }

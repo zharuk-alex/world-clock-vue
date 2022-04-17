@@ -1,6 +1,7 @@
 <template>
   <main>
     <div class="top">
+      <h2>Timer v0.1</h2>
       <div class="left">
         <h3>{{ dateNow }}</h3>
         <h1>{{ curr }}</h1>
@@ -26,10 +27,10 @@
 </template>
 
 <script>
-import tzListComponent from "./TZList";
-import tzListData from "../parts/TimezoneList";
-import FormatSwitcherComponent from "./FormatSwitcher.vue";
-import SearchTimezoneComponent from "./SearchTZComponent.vue";
+import tzListComponent from "@/components/TZList";
+import tzListData from "@/parts/TimezoneList";
+import FormatSwitcherComponent from "@/components/FormatSwitcher.vue";
+import SearchTimezoneComponent from "@/components/SearchTZComponent.vue";
 
 export default {
   name: "Timer",
@@ -57,7 +58,7 @@ export default {
   }),
   computed: {
     TimezoneTitle() {
-      return this.timezone.replace(/_/g, " ");
+      return this.timezone != null ? this.timezone.replace(/_/g, " ") : null;
     },
     currFormat() {
       return this.formats[this.modelFormat];
