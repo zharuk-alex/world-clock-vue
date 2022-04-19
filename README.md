@@ -1,6 +1,16 @@
 # world-clock-vue
 
-[label](http://https://zzharuk.github.io/world-clock-vue/)
+[Demo](http://https://zzharuk.github.io/world-clock-vue/)
+
+#### Usage:
+
+- [Vue.js](https://vuejs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Moment.js](https://momentjs.com/)
+
+#### Api:
+
+[worldtimeapi.org](http://worldtimeapi.org/api/)
 
 ## Project setup
 
@@ -19,13 +29,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
