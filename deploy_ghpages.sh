@@ -11,7 +11,6 @@ git init
 git add .
 git commit -m 'deploy'
 # git push -f git@github.com:username/hello-world.git master:gh-pages
-# git push -f https://github.com/zzharuk/world-clock-vue deploy
 git push -f https://github.com/zzharuk/world-clock-vue.git master:gh-pages
 
 cd -
