@@ -103,7 +103,7 @@ export default {
     },
   },
   async created() {
-    const response = await fetch("http://worldtimeapi.org/api/timezone");
+    const response = await fetch("https://worldtimeapi.org/api/timezone");
     this.timezoneList = await response.json();
   },
   mounted() {

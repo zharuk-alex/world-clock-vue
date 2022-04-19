@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Timer from "@/components/Timer";
+import Timer from "@/views/Timer";
 
 export default {
   name: "App",
