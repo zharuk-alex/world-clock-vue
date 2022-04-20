@@ -7,6 +7,7 @@
 - [Vue.js](https://vuejs.org/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Moment.js](https://momentjs.com/)
+- [Vue-Meta](https://vue-meta.nuxtjs.org/)
 
 #### Api:
 
