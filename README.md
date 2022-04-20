@@ -1,6 +1,6 @@
 # world-clock-vue
 
-[Demo](http://https://zzharuk.github.io/world-clock-vue/)
+[Demo](https://zzharuk.github.io/world-clock-vue/)
 
 #### Usage:
 
